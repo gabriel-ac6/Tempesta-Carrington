@@ -1,5 +1,12 @@
 <?php
   include "Conecao.php";
+
+  if($status_Login==1){
+    header("location:index.php");
+  }
+  else{
+    //Dont do nothing babe
+  }
 ?>
 
 <!DOCTYPE html5>
@@ -135,7 +142,7 @@
             <a href="Login.php" id="link2">  <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0"
                 data-bs-toggle="modal" data-bs-target="#feedbackModal">
                 <span class="d-flex align-items-center">
-                <a href="Sign&Cad.php" class="small" style="color:white; text-decoration:none;">Sign In</a>
+                <a href="Sign&Cad.php" class="small" style="color:white; text-decoration:none;">Sign Up</a>
                 </span></a>
             </button>
           </div>
@@ -160,13 +167,28 @@
 						Log in
 					</span>
 
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="nome_USUARIO" placeholder="Username:" required>
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					</div>
+
 					<div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="Username">
+						<input class="input100" type="text" name="email_USUARIO" placeholder="Email:" required>
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="telefone_USUARIO" placeholder="Celular:" required>
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Enter password">
-						<input class="input100" type="password" name="pass" placeholder="Password">
+						<input class="input100" type="password" name="password_USUARIO" placeholder="Password:" required>
+						<span class="focus-input100" data-placeholder="&#xf191;"></span>
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Enter password">
+						<input class="input100" type="password" name="conf_PASS" placeholder="Confirmar Password:" required>
 						<span class="focus-input100" data-placeholder="&#xf191;"></span>
 					</div>
 
@@ -179,7 +201,7 @@
 
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
-							Login
+							Sign Up
 						</button>
 					</div>
 
@@ -193,8 +215,8 @@
 						</a>
 </div>
 <div class="col-lg-6">
-           <a class="txt1" href="FormCad.php">
-							Fazer cadastro
+           <a class="txt1" href="Login.php">
+							Fazer Login
 						</a>
 					</div>
 </div>

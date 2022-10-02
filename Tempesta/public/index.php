@@ -1,5 +1,5 @@
 ﻿<?php
-  include "Conecao.php";
+include "Conecao.php";
 ?>
 
 <!DOCTYPE html5>
@@ -8,7 +8,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="keywords" content="Sun, coronal ejection, geomagnetic storms" />
-  <meta >
+  <meta>
   <meta name="author" content="Gabriel de Azevedo Camargo" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/css/Footer-with-logo.css">
@@ -29,10 +29,8 @@
   <link rel="stylesheet" href="nicepage.css" media="screen">
   <link rel="stylesheet" href="Home.css" media="screen">
   <meta name="generator" content="Nicepage 4.16.0, nicepage.com">
-  <link id="u-theme-google-font" rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-  <link id="u-page-google-font" rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i">
+  <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+  <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i">
 
 
   <script class="u-script" type="text/javascript" src="jquery.js" "="" defer=""></script>
@@ -296,10 +294,8 @@
       <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
 
-          <a class="navbar-brand fw-bold" href="index.php"
-            style="margin-top: 20px; font-family: fantasy; font-size: 30pt;">Tempesta.com</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand fw-bold" href="index.php" style="margin-top: 20px; font-family: fantasy; font-size: 30pt;">Tempesta.com</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="bi-list"></i>
           </button>
@@ -309,18 +305,17 @@
               <li class="nav-item"><a class="nav-link me-lg-3" href="faq">Solar Activity</a></li>
               <li class="nav-item"><a class="nav-link me-lg-3" href="shop">Solar Tempestas Intensive & Alert</a></li>
               <li class="nav-item"><a class="nav-link me-lg-3" href="Buy.php">Buy Premium</a></li>
-              
+
             </ul>
-            <a href="Login.php" class="small" style="color:white; text-decoration:none;">  <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0"
-                data-bs-toggle="modal" data-bs-target="#feedbackModal">
+            <a href="Login.php" class="small" style="color:white; text-decoration:none;"> <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                 <span class="d-flex align-items-center">
-                Sign In
+                  Sign In
                 </span></a>
             </button>
           </div>
         </div>
       </nav>
-     
+
 
 
 
@@ -337,8 +332,7 @@
             <p class="u-text u-text-body-alt-color u-text-default u-text-3">So remember: look at the stars, not at your
               feet.&nbsp;</p>
 
-            <a href="Buy.php"
-              class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-none u-radius-30 u-text-hover-white u-btn-1">read
+            <a href="Buy.php" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-none u-radius-30 u-text-hover-white u-btn-1">read
               more</a>
             <br><br>
           </div>
@@ -372,36 +366,32 @@
                   <div class="row">
                     <div class="col-lg-6">
                       <center>
-                        <h1>HTML 5</h1>
+                        <h1>Explanation</h1>
 
-                        <br><br><br>
-                        <img src="images/html.png" className="App-logo" alt="logo" width="300px" height="300px" />
+                        <br><br><br><br><br><br><br><br>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/oHHSSJDJ4oo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <br><br><br>
                         <p>
-                          Edit <code>src/App.js</code> and save to reload.
+                          Maked <code>whith php</code> .
                         </p>
 
-                        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-                          Learn React
-                        </a>
+
                       </center>
                     </div>
 
                     <div class="col-lg-6">
                       <center>
-                        <h1>HTML 5</h1>
+                        <h1>CME Representation</h1>
 
 
                         <br><br><br>
-                        <img src="images/html.png" className="App-logo" alt="logo" width="300px" height="300px" />
+                        <img src="img/sun.gif" className="App-logo" alt="logo" width="560" height="515" />
                         <br><br><br>
                         <p>
-                          Edit <code>src/App.js</code> and save to reload.
+                        Maked <code>whith php</code> .
                         </p>
 
-                        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-                          Learn React
-                        </a>
+                        
                       </center>
                     </div>
                   </div>
@@ -628,7 +618,7 @@
 
       <br><br><br>
 
-     
+
 
       <div class="row">
         <div class="col-md-12">
@@ -657,8 +647,7 @@
         <li data-u-target="#carousel_5380" class="u-grey-30" data-u-slide-to="1"></li>
       </ol>
       <div class="u-carousel-inner" role="listbox">
-        <div class="u-active u-align-center u-carousel-item u-clearfix u-image u-shading u-section-1-1" src=""
-          data-image-width="256" data-image-height="256">
+        <div class="u-active u-align-center u-carousel-item u-clearfix u-image u-shading u-section-1-1" src="" data-image-width="256" data-image-height="256">
           <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
             <h1 class="u-text u-text-default u-title u-text-1">Developers</h1>
             <p class="u-large-text u-text u-text-default u-text-variant u-text-2">Sample text. Lorem ipsum dolor sit
@@ -669,32 +658,28 @@
         <div class="u-align-center u-carousel-item u-clearfix u-grey-10 u-section-1-2">
           <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
             <h2 class="u-text u-text-default u-text-1">Our Team</h2>
-            <p class="u-text u-text-2">Sample text. Lorem ipsum dolor sit amet, consectetur <a href="#"
-                class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">adipiscing
+            <p class="u-text u-text-2">Sample text. Lorem ipsum dolor sit amet, consectetur <a href="#" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">adipiscing
                 elit nullam</a> nunc justo sagittis suscipit ultrices.
             </p>
             <div class="u-expanded-width u-list u-list-1">
               <div class="u-repeater u-repeater-1">
                 <div class="u-align-center u-container-style u-list-item u-repeater-item">
                   <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
-                    <div alt="" class="u-image u-image-circle u-image-1" src="" data-image-width="500"
-                      data-image-height="500"></div>
+                    <div alt="" class="u-image u-image-circle u-image-1" src="" data-image-width="500" data-image-height="500"></div>
                     <h5 class="u-text u-text-3">Fred Morrison</h5>
                     <p class="u-text u-text-4">Accountant-auditor</p>
                   </div>
                 </div>
                 <div class="u-align-center u-container-style u-list-item u-repeater-item">
                   <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
-                    <div alt="" class="u-image u-image-circle u-image-2" src="" data-image-width="500"
-                      data-image-height="500"></div>
+                    <div alt="" class="u-image u-image-circle u-image-2" src="" data-image-width="500" data-image-height="500"></div>
                     <h5 class="u-text u-text-5">Mattie Ball</h5>
                     <p class="u-text u-text-6">Office Manager</p>
                   </div>
                 </div>
                 <div class="u-align-center u-container-style u-list-item u-repeater-item">
                   <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
-                    <div alt="" class="u-image u-image-circle u-image-3" src="" data-image-width="500"
-                      data-image-height="500"></div>
+                    <div alt="" class="u-image u-image-circle u-image-3" src="" data-image-width="500" data-image-height="500"></div>
                     <h5 class="u-text u-text-7">Mattie Smith</h5>
                     <p class="u-text u-text-8">Chief Accountant</p>
                   </div>
@@ -704,8 +689,7 @@
           </div>
         </div>
       </div>
-      <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-text-grey-30 u-block-2346-3"
-        href="#carousel_5380" role="button" data-u-slide="prev">
+      <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-text-grey-30 u-block-2346-3" href="#carousel_5380" role="button" data-u-slide="prev">
         <span aria-hidden="true">
           <svg class="u-svg-link" viewBox="0 0 477.175 477.175">
             <path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
@@ -714,12 +698,10 @@
         </span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-text-grey-30 u-block-2346-4"
-        href="#carousel_5380" role="button" data-u-slide="next">
+      <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-text-grey-30 u-block-2346-4" href="#carousel_5380" role="button" data-u-slide="next">
         <span aria-hidden="true">
           <svg class="u-svg-link" viewBox="0 0 477.175 477.175">
-            <path
-              d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+            <path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
                     c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z">
             </path>
           </svg>
@@ -739,8 +721,7 @@
       <div class="row" id="box-11-total">
         <div class="col-lg-12" id="try">
           <br><br><br>
-          <iframe width="100%" height="490px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-            src="https://maps.google.ch/maps?f=q&amp;source=s_q&amp;hl=de&amp;geocode=&amp;q=Bern&amp;aq=&amp;sll=46.813187,8.22421&amp;sspn=3.379772,8.453979&amp;ie=UTF8&amp;hq=&amp;hnear=Bern&amp;t=m&amp;z=12&amp;ll=46.947922,7.444608&amp;output=embed&amp;iwloc=near"></iframe>
+          <iframe width="100%" height="490px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ch/maps?f=q&amp;source=s_q&amp;hl=de&amp;geocode=&amp;q=Bern&amp;aq=&amp;sll=46.813187,8.22421&amp;sspn=3.379772,8.453979&amp;ie=UTF8&amp;hq=&amp;hnear=Bern&amp;t=m&amp;z=12&amp;ll=46.947922,7.444608&amp;output=embed&amp;iwloc=near"></iframe>
         </div>
       </div>
 
